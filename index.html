@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Van Honey Cailing - Home</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Van Honey Cailing</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page">
+    <div class="home-center">
+
+      <!-- bottom corner dots -->
+      <span class="corner-bl"></span>
+      <span class="corner-br"></span>
+
+      <!-- decorative ring wrap -->
+      <div class="profile-pic-wrap">
+        <img src="pic1.png"
+             alt="Van Honey Cailing" class="profile-pic"/>
+      </div>
+
+      <h1 class="home-name"><span>Van Honey Cailing</span></h1>
+      <p class="home-role">Aspiring Web Developer and Programmer</p>
+
+      <p class="home-info">21 years old &nbsp;|&nbsp; BS Computer Science</p>
+      <p class="home-info">Purok 4, Sta. Irene, Prosperidad, Agusan del Sur</p>
+
+      <!-- decorative divider with dot -->
+      <div class="home-divider">
+        <div class="home-divider-dot"></div>
+      </div>
+
+      <p class="home-desc">
+        Passionate about technology and software development.
+        Interested in creating simple, functional, and user-friendly websites.
+        Motivated to continuously learn new programming languages and tools.
+      </p>
+
+      <div class="home-goal-box">
+        <strong>Career Goal</strong>
+        To become a skilled software developer in the future.
+      </div>
+
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox-overlay">
+    <button class="lb-close" onclick="closeLightbox()">&#x2715;</button>
+    <button class="lb-arrow prev" onclick="lbPrev()">&#8592;</button>
+    <div class="lightbox-img-wrap">
+      <img id="lb-img" src="" alt=""/>
+    </div>
+    <button class="lb-arrow next" onclick="lbNext()">&#8594;</button>
+    <div id="lb-caption" class="lb-caption"></div>
+    <div id="lb-counter" class="lb-counter"></div>
+  </div>
+
+  <footer>
+    2026 Van Honey Cailing &nbsp;|&nbsp; BSCS Student &nbsp;|&nbsp; Prosperidad, Agusan del Sur
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

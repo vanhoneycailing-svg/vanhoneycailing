@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Van Honey Cailing - Projects</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Van Honey Cailing</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page">
+
+    <p class="section-tag">Projects</p>
+    <h2 class="section-title">My Projects</h2>
+    <div class="section-line"></div>
+
+    <div class="projects-grid">
+
+      <!-- PROJECT 01 - robotpic2 added -->
+      <div class="pcard">
+        <div class="pcard-imgs">
+          <img src="pic8.jpg" alt="Wifi Camera Robot" class="active-img"/>
+          <img src="pic9.jpg" alt="Wifi Camera Robot 2"/>
+        </div>
+        <div class="pcard-dots">
+          <button class="pdot"></button>
+          <button class="pdot"></button>
+        </div>
+        <div class="pcard-body">
+          <p class="pcard-num">01</p>
+          <h3>WIFI CAMERA ROBOT </h3>
+          <p>A smart app-controlled surveillance robot. We assembled this as a team and presented a defense for the project.</p>
+        </div>
+      </div>
+
+      <!-- PROJECT 02 -->
+      <div class="pcard">
+        <div class="pcard-imgs">
+          <img src="pic10.jpg" alt="Ultrasonic Sensor" class="active-img"/>
+        </div>
+        <div class="pcard-dots">
+          <button class="pdot"></button>
+          <button class="pdot"></button>
+        </div>
+        <div class="pcard-body">
+          <p class="pcard-num">02</p>
+          <h3>ULTRASONIC SENSOR</h3>
+          <p> I created and simulated an ultrasonic distance sensor activity using Tinkercad.</p>
+        </div>
+      </div>
+
+      <!-- PROJECT 03 -->
+      <div class="pcard">
+        <div class="pcard-imgs">
+        <img src="pic18.png" alt="Start-up Idea" class="active-img"/>
+        </div>
+        <div class="pcard-dots">
+          <button class="pdot"></button>
+          <button class="pdot"></button>
+        </div>
+        <div class="pcard-body">
+          <p class="pcard-num">03</p>
+          <h3>YOUTH GROW.AI </h3>
+          <p> we created a start up application where in we help young generation to be interested in farming. (to know more about our start-up just click the picture for the video)</p>
+        </div>
+      </div>
+
+      <!-- PROJECT 04 - ichigo2 added -->
+      <div class="pcard">
+        <div class="pcard-imgs">
+          <img src="pic11.png" alt="Photoshop Edit" class="active-img"/>
+          <img src="pic12.jpg" alt="Photoshop Edit 2"/>
+        </div>
+        <div class="pcard-dots">
+          <button class="pdot"></button>
+          <button class="pdot"></button>
+        </div>
+        <div class="pcard-body">
+          <p class="pcard-num">04</p>
+          <h3>PHOTO EDIT</h3>
+          <p>A photo editing project where I applied design techniques and tools using Adobe Photoshop.</p>
+        </div>
+      </div>
+
+      <!-- PROJECT 05 -->
+      <div class="pcard">
+        <div class="pcard-imgs">
+          <img src="pic13.jpg" alt="Portfolio" class="active-img"/>
+          <img src="pic14.png" alt="Portfolio 2"/>
+        </div>
+        <div class="pcard-dots">
+          <button class="pdot"></button>
+          <button class="pdot"></button>
+        </div>
+        <div class="pcard-body">
+          <p class="pcard-num">05</p>
+          <h3>PROTRAIT</h3>
+          <p>We are tasked to recreate a portrait and i choose this photo as my bases.</p>
+        </div>
+      </div>
+
+      <!-- PROJECT 06 - diorama2 and dioramapic3 added -->
+      <div class="pcard">
+        <div class="pcard-imgs">
+          <img src="pic15.jpg" alt="Diorama 1" class="active-img"/>
+          <img src="pic16.jpg" alt="Diorama 2"/>
+          <img src="pic17.jpg" alt="Diorama 3"/>
+        </div>
+        <div class="pcard-dots">
+          <button class="pdot"></button>
+          <button class="pdot"></button>
+          <button class="pdot"></button>
+        </div>
+        <div class="pcard-body">
+          <p class="pcard-num">06</p>
+          <h3>DIORAMA</h3>
+          <p>A hands-on diorama project built as a team. We designed and assembled a miniature city model with lights and structures.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox-overlay">
+    <button class="lb-close" onclick="closeLightbox()">&#x2715;</button>
+    <button class="lb-arrow prev" onclick="lbPrev()">&#8592;</button>
+    <div class="lightbox-img-wrap">
+      <img id="lb-img" src="" alt=""/>
+    </div>
+    <button class="lb-arrow next" onclick="lbNext()">&#8594;</button>
+    <div id="lb-caption" class="lb-caption"></div>
+    <div id="lb-counter" class="lb-counter"></div>
+  </div>
+
+  <footer>
+    2026 Van Honey Cailing &nbsp;|&nbsp; BSCS Student &nbsp;|&nbsp; Prosperidad, Agusan del Sur
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

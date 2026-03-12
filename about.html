@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Van Honey Cailing - About</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Van Honey Cailing</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page">
+
+    <p class="section-tag">About</p>
+    <h2 class="section-title">About Me</h2>
+    <div class="section-line"></div>
+
+    <div class="info-box">
+      <p>I chose Computer Science because I am interested in computers, programming, and technology.</p>
+      <p>I enjoy solving logical problems and learning how systems work.</p>
+      <p>I am hardworking, patient, and willing to learn new skills.</p>
+      <p>I can work independently and also collaborate with a team.</p>
+      <p>I value discipline, responsibility, and continuous improvement.</p>
+    </div>
+
+    <!-- PHOTO GALLERY - click any photo to expand and slide -->
+    <div class="gallery-grid">
+
+      <div class="gallery-item">
+        <img src="pic2.jpg" alt="About Myself"/>
+        <div class="gallery-info">
+          <div class="gallery-title">About Myself</div>
+          <div class="gallery-desc">
+            I am Van Honey Cailing, a 21-year-old BSCS student who loves technology and is determined to grow as a developer.
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="pic3.jpg" alt="Where I Live"/>
+        <div class="gallery-info">
+          <div class="gallery-title">Where I Live</div>
+          <div class="gallery-desc">
+            I live in Purok 4, Sta. Irene, Prosperidad, Agusan del Sur. It is a quiet and peaceful community that I call home.
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="pic4.jpg" alt="My Hobby"/>
+        <div class="gallery-info">
+          <div class="gallery-title">My Hobby</div>
+          <div class="gallery-desc">
+            In my free time I enjoy browsing in my social media accounts like facebbok and instagram.
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="pic5.jpg" alt="Family"/>
+        <div class="gallery-info">
+          <div class="gallery-title">Family</div>
+          <div class="gallery-desc">
+            My family is my biggest motivation. Their support and encouragement push me to work hard every day.
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="pic6.jpg" alt="Love Life"/>
+        <div class="gallery-info">
+          <div class="gallery-title">Love Life</div>
+          <div class="gallery-desc">
+            I believe in growing together with the people who matter. Having someone who supports your dreams makes everything meaningful.
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="pic7.jpg" alt="Adventures"/>
+        <div class="gallery-info">
+          <div class="gallery-title">Adventures</div>
+          <div class="gallery-desc">
+            I enjoy exploring new places. Every adventure teaches me something new about the world and about myself.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  
+
+    <div class="info-box">
+      <div class="skill-box-title" style="margin-bottom: 14px;">Career Goals</div>
+      <p>To improve my programming and development skills.</p>
+      <p>To gain real-world experience in software development.</p>
+      <p>To work in a technology-related field after graduation.</p>
+      <p>To continuously grow and learn in the IT industry.</p>
+    </div>
+
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox-overlay">
+    <button class="lb-close" onclick="closeLightbox()">&#x2715;</button>
+    <button class="lb-arrow prev" onclick="lbPrev()">&#8592;</button>
+    <div class="lightbox-img-wrap">
+      <img id="lb-img" src="" alt=""/>
+    </div>
+    <button class="lb-arrow next" onclick="lbNext()">&#8594;</button>
+    <div id="lb-caption" class="lb-caption"></div>
+    <div id="lb-counter" class="lb-counter"></div>
+  </div>
+
+  <footer>
+    2026 Van Honey Cailing &nbsp;|&nbsp; BSCS Student &nbsp;|&nbsp; Prosperidad, Agusan del Sur
+  </footer>
+
+
+  <script src="gallery.js"></script>
+</body>
+</html>
